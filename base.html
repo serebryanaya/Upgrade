@@ -1,0 +1,62 @@
+<!-- {% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Internship</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+<a href="{% url 'home' %}"><h3 id="logo">Internship</h3> </a>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title> Главная страница </title>
+</head>
+<body>
+
+	<div class="section">
+		<div class="container">
+		<!-- первая строка с именем сервиса -->
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-1 col-sm-6 col-sm-offset-1">
+					<img src="img/Frame.svg" class="rounded float-left" alt="UpGrade">
+						<h1 class="header text-left">
+<!-- 					<strong> UpGrade </strong> -->
+					<span> Новый уровень знаний</span>
+					</h1>
+				</div>
+			</div>
+			<!-- вторая строка с регистрацией -->
+			<div class="row">
+			<div class="col-lg-4 col-sm-6">
+				<div class="form">
+					<p class="form-header text-left"> Войти в систему </p>
+					<form action="#">
+						<p class="form-text"> Логин </p>
+						<input type="text" class="form-control input-sm" placeholder="Ваш ID">
+						<p class="form-text"> Пароль </p>
+						<input type="text" class="form-control input-sm" placeholder="Ваш пароль">
+						<p class="form-text"> Забыли пароль? </p>
+						<button class="btn col-lg-6 d-md-block btn-primary btn-md btn-block form-btn">Войти
+						</button>
+					</form>
+				</div>
+			</div>	
+			</div>
+			</div>
+		
+		</div>
+	</div>
+
+</body>
+</html>
